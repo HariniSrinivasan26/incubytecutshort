@@ -10,7 +10,7 @@ String[] res=str.split("[,]",0);
 for(String myStr:res)
 {
 int i=Integer.parseInt(myStr);
-sum+=i
+sum+=i;
 }
 return sum;
 }
