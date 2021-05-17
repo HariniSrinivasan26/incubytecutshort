@@ -1,0 +1,22 @@
+public static int Add(string str)
+{
+int sum=0;
+if(str.isEmpty())
+{
+return 0;
+}
+else{
+String[] res=str.split("[,]",0);
+for(String myStr:res)
+{
+int i=Integer.parseInt(myStr);
+sum+=i
+}
+return sum;
+}
+}
+public static void main(string []args){
+String str="";
+int s=Add(str);
+System.out.println(s);
+}
